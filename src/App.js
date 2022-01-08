@@ -6,7 +6,12 @@ import Projects from "./pages/Projects";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  HashRouter as Router,
+  BrowserRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -16,6 +21,10 @@ function App() {
         <Grid item lg={10} md={10} sx={{}}>
           <Router>
             <Header />
+            <BrowserRouter>
+              <Route exact path="/myportofolio/" element={<Home />}></Route>
+            </BrowserRouter>
+
             <Routes>
               <Route exact path="/myportofolio/" element={<Home />}></Route>
               <Route
