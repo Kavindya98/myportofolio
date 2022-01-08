@@ -15,26 +15,26 @@ const Header = () => {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav style={{ marginLeft: "40px" }}>
-          <Nav.Link as={NavLink} to="/portofolio/">
+          <Nav.Link as={NavLink} to="/myportofolio/">
             Home
           </Nav.Link>
           <Nav.Link
             as={NavLink}
-            to="/portofolio/volunteer"
+            to="/myportofolio/volunteer"
             style={{ marginLeft: "40px" }}
           >
             Volunteering
           </Nav.Link>
           <Nav.Link
             as={NavLink}
-            to="/portofolio/projects"
+            to="/myportofolio/projects"
             style={{ marginLeft: "40px" }}
           >
             Projects
           </Nav.Link>
           <Nav.Link
             as={NavLink}
-            to="/portofolio/blogs"
+            to="/myportofolio/blogs"
             style={{ marginLeft: "40px" }}
           >
             Blogs
@@ -57,7 +57,11 @@ const Header = () => {
           >
             <LinkedInIcon />
           </Nav.Link>
-          <Link href="https://drive.google.com/drive/u/0/folders/1MCwAByODybfa5zlWrOYl94TwU5Ifvjf6">
+          <a
+            href="https://drive.google.com/drive/u/0/folders/1MCwAByODybfa5zlWrOYl94TwU5Ifvjf6"
+            rel="opener noreferrer"
+            target="_blank"
+          >
             <Button
               style={{
                 backgroundColor: "#212529",
@@ -70,7 +74,7 @@ const Header = () => {
             >
               Resume
             </Button>
-          </Link>
+          </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

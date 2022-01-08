@@ -17,18 +17,22 @@ function App() {
           <Router>
             <Header />
             <Routes>
-              <Route exact path="/portofolio/" element={<Home />}></Route>
+              <Route exact path="/myportofolio/" element={<Home />}></Route>
               <Route
                 exact
-                path="/portofolio/volunteer"
+                path="/myportofolio/volunteer"
                 element={<Volunteering />}
               ></Route>
               <Route
                 exact
-                path="/portofolio/projects"
+                path="/myportofolio/projects"
                 element={<Projects />}
               ></Route>
-              <Route exact path="/portofolio/blogs" element={<Blogs />}></Route>
+              <Route
+                exact
+                path="/myportofolio/blogs"
+                element={<Blogs />}
+              ></Route>
             </Routes>
           </Router>
         </Grid>
