@@ -58,7 +58,7 @@ const Header = () => {
             <LinkedInIcon />
           </Nav.Link>
           <a
-            href="https://drive.google.com/drive/u/0/folders/1MCwAByODybfa5zlWrOYl94TwU5Ifvjf6"
+            href="https://drive.google.com/file/d/17--YknjSOfGHXyWY4KmTvTqEP0wVOXX2/view?usp=sharing"
             rel="opener noreferrer"
             target="_blank"
           >
