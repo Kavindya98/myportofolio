@@ -45,7 +45,7 @@ const Home = () => {
             <h6 className="list-unstyled">
               Interests
               <li>
-                Data Science, Machine Learning, Deep Learning, Software/Web
+                Data Science, Machine Learning, Software Development, Web
                 Development
               </li>
             </h6>
@@ -99,12 +99,7 @@ const Home = () => {
           <div class="col">
             <Technology
               Header={"Programming Language"}
-              Talent={[
-                "Python",
-                "Java (basics)",
-                "C++ (basics)",
-                "SQL (basics)",
-              ]}
+              Talent={["Python", "Java (basics)", "SQL (basics)"]}
             />
           </div>
           <div class="col">
@@ -131,7 +126,7 @@ const Home = () => {
           <div class="col" style={{ marginTop: "0px" }}>
             <Technology
               Header={"Dashboard Development"}
-              Talent={["Power BI", "Qlik Sense", "Quick View"]}
+              Talent={["Power BI", "Qlik Sense", "QuickSight"]}
             />
           </div>
           <div class="col" style={{ marginTop: "20px" }}>

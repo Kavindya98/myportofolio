@@ -88,7 +88,7 @@ const Projects = () => {
       {/* Beulah */}
       <div>
         <Topic
-          Heading={"An Audio Player with Customised Features "}
+          Heading={"Beulah Audio Automation Desktop Application "}
           Group={2}
         />
         <p style={{ color: "white", opacity: 0.5 }}>A Freelancing Project </p>
@@ -98,11 +98,12 @@ const Projects = () => {
 
         <p style={{ color: "white" }}>
           This is a freelancing project to deliver an audio player with
-          customised features requested by the client, Beulah Studio. Worked as
-          the responsible person for interacting with the client, requirement
-          gathering and managing the team. It is a desktop application which has
-          been developed using React Js, Electron, Node.js and SQLite for the
-          database. Use clickup as the mamagement platform
+          customised features requested by the client, Beulah Studio targeting
+          customers like clothing stores, dental clinics, optical clinics etc.
+          Worked as the responsible person for interacting with the client,
+          requirement gathering and managing the team. It is a desktop
+          application which has been developed using React Js, Electron, Node.js
+          and SQLite for the database. Use clickup as the mamagement platform
         </p>
         <p style={{ color: "white" }}>
           Worked as the responsible person for interacting with the client,
