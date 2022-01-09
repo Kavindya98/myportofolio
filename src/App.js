@@ -21,27 +21,12 @@ function App() {
         <Grid item lg={10} md={10} sx={{}}>
           <Router>
             <Header />
-            <BrowserRouter>
-              <Route exact path="/myportofolio/" element={<Home />}></Route>
-            </BrowserRouter>
 
             <Routes>
-              <Route exact path="/myportofolio/" element={<Home />}></Route>
-              <Route
-                exact
-                path="/myportofolio/volunteer"
-                element={<Volunteering />}
-              ></Route>
-              <Route
-                exact
-                path="/myportofolio/projects"
-                element={<Projects />}
-              ></Route>
-              <Route
-                exact
-                path="/myportofolio/blogs"
-                element={<Blogs />}
-              ></Route>
+              <Route exact path="/" element={<Home />}></Route>
+              <Route exact path="/volunteer" element={<Volunteering />}></Route>
+              <Route exact path="/projects" element={<Projects />}></Route>
+              <Route exact path="/blogs" element={<Blogs />}></Route>
             </Routes>
           </Router>
         </Grid>

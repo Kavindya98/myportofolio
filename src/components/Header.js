@@ -15,28 +15,16 @@ const Header = () => {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav style={{ marginLeft: "40px" }}>
-          <Nav.Link as={NavLink} to="/myportofolio/">
+          <Nav.Link as={NavLink} to="/">
             Home
           </Nav.Link>
-          <Nav.Link
-            as={NavLink}
-            to="/myportofolio/volunteer"
-            style={{ marginLeft: "40px" }}
-          >
+          <Nav.Link as={NavLink} to="/volunteer" style={{ marginLeft: "40px" }}>
             Volunteering
           </Nav.Link>
-          <Nav.Link
-            as={NavLink}
-            to="/myportofolio/projects"
-            style={{ marginLeft: "40px" }}
-          >
+          <Nav.Link as={NavLink} to="/projects" style={{ marginLeft: "40px" }}>
             Projects
           </Nav.Link>
-          <Nav.Link
-            as={NavLink}
-            to="/myportofolio/blogs"
-            style={{ marginLeft: "40px" }}
-          >
+          <Nav.Link as={NavLink} to="/blogs" style={{ marginLeft: "40px" }}>
             Blogs
           </Nav.Link>
           <Nav.Link
