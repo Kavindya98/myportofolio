@@ -100,15 +100,14 @@ const Projects = () => {
           This is a freelancing project to deliver an audio player with
           customised features requested by the client, Beulah Studio targeting
           customers like clothing stores, dental clinics, optical clinics etc.
-          Worked as the responsible person for interacting with the client,
-          requirement gathering and managing the team. It is a desktop
-          application which has been developed using React Js, Electron, Node.js
-          and SQLite for the database. Use clickup as the mamagement platform
+          It is a desktop application which has been developed using React Js,
+          Electron, Node.js and SQLite for the database. Used clickup as the
+          management platform.
         </p>
         <p style={{ color: "white" }}>
           Worked as the responsible person for interacting with the client,
-          requirement gathering and managing the team. Also developed the
-          frontend of the application.
+          requirement gathering and managing the team. Also involved in the
+          development of the frontend of the application.
         </p>
       </div>
 
